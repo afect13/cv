@@ -1,10 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="/css/output.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+    <title>Nikita - Front-end developer</title>
   </head>
-  <body></body>
+  <body class="font-Roboto bg-slate-900 text-slate-400">
+    <header class="max-w-full border-b border-slate-300/10 mx-auto">
+      <div class="flex justify-between box-border max-w-6xl mx-auto py-4">
+        <h1 class="font-Roboto text-2xl pl-2 font-bold text-slate-200">Frontend developer</h1>
+        <div class="flex items-center gap-4 pl-4 border-l border-slate-300/10 text-slate-200">
+          <button class="px-2"><i class="fa-solid fa-sun"></i></button>
+          <a class="px-2" target="_blank" href="https://github.com/afect13"><i class="fa-brands fa-github"></i></a>
+        </div>
+      </div>
+    </header>
+    <main class="flex flex-col box-border max-w-6xl mx-auto">
+      <div class="flex flex-row mx-[96px] justify-between pt-10">
+        <div class="flex flex-col justify-center basis-2/3">
+          <h1 class="text-slate-200 text-8xl"><b>Привет👋</b></h1>
+          <h2 class="text-slate-200 text-6xl font-light mt-2">Меня зовут Никита</h2>
+          <h3 class="text-slate-200 text-5xl mt-5"><b>И я Frontend Developer</b></h3>
+        </div>
+        <div class="basis-1/2 pl-[47px]">
+          <img class="rounded-full" src="/img/photo.jpg" alt="DeveloperPhoto" />
+        </div>
+      </div>
+      <div class="flex flex-col items-start pt-20 mx-[96px]">
+        <div class="flex text-slate-200 items-center text-4xl">
+          <i class="fa-solid fa-screwdriver-wrench mr-4"></i>
+          <h2>Навыки и опыт:</h2>
+        </div>
+        <div class="flex flex-col ml-4 mt-6 pl-4 border-l border-slate-300/10">
+          <h3 class="text-3xl">Frontend</h3>
+          <div class="flex gap-4 mt-3">
+            <img src="/img/html5-original.svg" title="HTML5" alt="HTML" width="40" height="40" />
+            <img src="/img/css3-plain-wordmark.svg" title="CSS3" alt="CSS" width="40" height="40" />
+            <img src="/img/javascript-original.svg" title="JavaScript" alt="JavaScript" width="40" height="40" />
+            <img src="/img/typescript-original.svg" title="Typescript" alt="Typescript" width="40" height="40" />
+            <img src="/img/react-original.svg" title="React" alt="React" width="40" height="40" />
+            <img src="/img/redux-original.svg" title="Next" alt="Next" width="40" height="40" />
+          </div>
+        </div>
+      </div>
+    </main>
+    <div></div>
+    <script src="js/script.js"></script>
+  </body>
 </html>
