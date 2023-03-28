@@ -1,5 +1,7 @@
 /** @type {import('tailwindcss').Config} */
+
 module.exports = {
+  darkMode: "class",
   content: ["./**/*.{html,js}"],
   theme: {
     extend: {},
@@ -7,5 +9,5 @@ module.exports = {
       Roboto: ["Roboto", "sans-serif"],
     },
   },
-  plugins: [],
+  plugins: [require("tailwind-scrollbar")({ nocompatible: true })],
 };
