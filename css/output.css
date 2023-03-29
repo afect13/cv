@@ -546,9 +546,12 @@ video {
   z-index: 40;
 }
 
-.mx-10 {
-  margin-left: 2.5rem;
-  margin-right: 2.5rem;
+.order-1 {
+  order: 1;
+}
+
+.order-2 {
+  order: 2;
 }
 
 .mx-4 {
@@ -579,6 +582,10 @@ video {
   margin-bottom: 0.75rem;
 }
 
+.ml-0 {
+  margin-left: 0px;
+}
+
 .ml-4 {
   margin-left: 1rem;
 }
@@ -593,6 +600,10 @@ video {
 
 .mt-10 {
   margin-top: 2.5rem;
+}
+
+.mt-12 {
+  margin-top: 3rem;
 }
 
 .mt-20 {
@@ -619,6 +630,10 @@ video {
   display: flex;
 }
 
+.hidden {
+  display: none;
+}
+
 .w-12 {
   width: 3rem;
 }
@@ -639,8 +654,20 @@ video {
   min-width: 100%;
 }
 
+.min-w-\[330px\] {
+  min-width: 330px;
+}
+
 .max-w-6xl {
   max-width: 72rem;
+}
+
+.max-w-\[330px\] {
+  max-width: 330px;
+}
+
+.max-w-\[80\%\] {
+  max-width: 80%;
 }
 
 .flex-none {
@@ -683,6 +710,10 @@ video {
 
 .justify-between {
   justify-content: space-between;
+}
+
+.gap-2 {
+  gap: 0.5rem;
 }
 
 .gap-4 {
@@ -786,12 +817,12 @@ video {
   padding-left: 1.5rem;
 }
 
-.pl-\[47px\] {
-  padding-left: 47px;
-}
-
 .pt-16 {
   padding-top: 4rem;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .text-right {
@@ -822,19 +853,22 @@ video {
   line-height: 1;
 }
 
-.text-6xl {
-  font-size: 3.75rem;
-  line-height: 1;
-}
-
 .text-7xl {
   font-size: 4.5rem;
   line-height: 1;
 }
 
-.text-8xl {
-  font-size: 6rem;
-  line-height: 1;
+.text-\[1\.7rem\] {
+  font-size: 1.7rem;
+}
+
+.text-\[calc\(3vw\+3vh\)\] {
+  font-size: calc(3vw + 3vh);
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 
 .font-bold {
@@ -853,9 +887,9 @@ video {
   letter-spacing: -0.025em;
 }
 
-.text-slate-200 {
+.text-slate-300 {
   --tw-text-opacity: 1;
-  color: rgb(226 232 240 / var(--tw-text-opacity));
+  color: rgb(203 213 225 / var(--tw-text-opacity));
 }
 
 .text-slate-700 {
@@ -866,11 +900,6 @@ video {
 .text-slate-900 {
   --tw-text-opacity: 1;
   color: rgb(15 23 42 / var(--tw-text-opacity));
-}
-
-.text-slate-300 {
-  --tw-text-opacity: 1;
-  color: rgb(203 213 225 / var(--tw-text-opacity));
 }
 
 .opacity-40 {
@@ -992,4 +1021,158 @@ video {
 
 .dark .dark\:scrollbar-thumb-slate-800 {
   --scrollbar-thumb: #1e293b !important;
+}
+
+@media (min-width: 640px) {
+  .sm\:order-1 {
+    order: 1;
+  }
+
+  .sm\:order-2 {
+    order: 2;
+  }
+
+  .sm\:mx-\[20px\] {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .sm\:ml-4 {
+    margin-left: 1rem;
+  }
+
+  .sm\:mt-0 {
+    margin-top: 0px;
+  }
+
+  .sm\:mt-10 {
+    margin-top: 2.5rem;
+  }
+
+  .sm\:mr-0 {
+    margin-right: 0px;
+  }
+
+  .sm\:flex {
+    display: flex;
+  }
+
+  .sm\:max-w-full {
+    max-width: 100%;
+  }
+
+  .sm\:max-w-max {
+    max-width: -moz-max-content;
+    max-width: max-content;
+  }
+
+  .sm\:max-w-none {
+    max-width: none;
+  }
+
+  .sm\:flex-row {
+    flex-direction: row;
+  }
+
+  .sm\:items-center {
+    align-items: center;
+  }
+
+  .sm\:gap-4 {
+    gap: 1rem;
+  }
+
+  .sm\:text-left {
+    text-align: left;
+  }
+
+  .sm\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .sm\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .sm\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:mx-10 {
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+  }
+
+  .md\:mx-\[40px\] {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  .md\:items-start {
+    align-items: flex-start;
+  }
+
+  .md\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .md\:text-7xl {
+    font-size: 4.5rem;
+    line-height: 1;
+  }
+
+  .md\:text-\[2\.1rem\] {
+    font-size: 2.1rem;
+  }
+
+  .md\:text-\[2\.7rem\] {
+    font-size: 2.7rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:mx-\[96px\] {
+    margin-left: 96px;
+    margin-right: 96px;
+  }
+
+  .lg\:text-8xl {
+    font-size: 6rem;
+    line-height: 1;
+  }
+
+  .lg\:text-\[2\.6rem\] {
+    font-size: 2.6rem;
+  }
+
+  .lg\:text-\[3\.3rem\] {
+    font-size: 3.3rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:mx-\[96px\] {
+    margin-left: 96px;
+    margin-right: 96px;
+  }
+
+  .xl\:pl-\[47px\] {
+    padding-left: 47px;
+  }
+
+  .xl\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  .xl\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
 }

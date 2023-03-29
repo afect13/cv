@@ -15,11 +15,11 @@
       class="min-w-full fixed z-40 border-b border-slate-900/20 dark:border-slate-300/10 bg-stone-100 dark:bg-slate-900"
     >
       <div class="flex justify-between box-border max-w-6xl mx-auto py-4">
-        <h1 class="font-Roboto text-2xl mx-10 font-bold text-slate-900 dark:text-slate-200">
+        <h1 class="font-Roboto ml-4 text-lg md:text-2xl md:mx-10 font-bold text-slate-900 dark:text-slate-200">
           <span><</span>Developer<span>/></span>
         </h1>
         <div
-          class="flex items-center mx-10 gap-4 pl-4 border-l border-slate-900/20 dark:border-slate-300/10 text-slate-900 dark:text-slate-200"
+          class="flex items-center mr-4 md:mx-10 gap-4 pl-4 border-l border-slate-900/20 dark:border-slate-300/10 text-slate-900 dark:text-slate-200"
         >
           <button id="toggle" class="px-2 w-12"><i id="icon" class="fa-solid fa-sun"></i></button>
           <a class="px-2" target="_blank" href="https://github.com/afect13"><i class="fa-brands fa-github"></i></a>
@@ -27,24 +27,40 @@
       </div>
     </header>
     <main class="flex flex-col box-border max-w-6xl pt-16 mx-auto">
-      <div class="flex flex-row mx-[96px] justify-between mt-10">
-        <div class="flex flex-col justify-center basis-2/3">
-          <h1 class="text-slate-900 dark:text-slate-200 text-8xl"><b>Привет👋</b></h1>
-          <h2 class="text-slate-900 dark:text-slate-200 text-6xl font-light mt-6">Меня зовут Никита</h2>
-          <h3 class="text-slate-900 dark:text-slate-200 text-5xl mt-10"><b>И я Frontend Developer</b></h3>
+      <div
+        class="flex flex-col items-start max-w-[330px] sm:max-w-none sm:items-center sm:flex-row mx-auto sm:mx-[20px] md:mx-[40px] lg:mx-[96px] xl:mx-[96px] justify-between mt-10"
+      >
+        <div class="flex flex-col justify-center order-2 mt-12 sm:mt-0 md:items-start sm:order-1 basis-2/3">
+          <h1
+            class="text-slate-900 text-right sm:text-left mr-4 sm:mr-0 dark:text-slate-200 text-5xl sm:text-6xl md:text-7xl lg:text-8xl"
+          >
+            <b>Привет👋</b>
+          </h1>
+          <h2
+            class="text-slate-900 dark:text-slate-200 font-light mt-6 text-4xl sm:text-4xl md:text-[2.7rem] lg:text-[3.3rem] xl:text-6xl"
+          >
+            Меня зовут Никита
+          </h2>
+          <h3
+            class="text-slate-900 dark:text-slate-200 mt-4 sm:mt-10 text-[1.7rem] sm:text-3xl md:text-[2.1rem] lg:text-[2.6rem] xl:text-5xl"
+          >
+            <b>И я Frontend Developer</b>
+          </h3>
         </div>
-        <div class="basis-1/2 pl-[47px]">
-          <img class="rounded-full" src="/img/avatar.png" alt="DeveloperPhoto" />
+        <div class="flex justify-center basis-1/2 xl:pl-[47px] order-1 sm:order-2">
+          <img class="rounded-full max-w-[80%] sm:max-w-full" src="/img/avatar.png" alt="DeveloperPhoto" />
         </div>
       </div>
-      <div class="flex flex-col relative items-start mt-20 mx-[96px]">
+      <div
+        class="flex flex-col relative min-w-[330px] sm:min-w-none items-start mt-20 mx-auto sm:mx-[20px] md:mx-[40px] lg:mx-[96px] xl:mx-[96px]"
+      >
         <div class="flex text-slate-900 dark:text-slate-200 items-center text-4xl">
           <i class="fa-solid fa-screwdriver-wrench mr-4"></i>
           <h2>Навыки и опыт:</h2>
         </div>
-        <div class="flex flex-col ml-4 mt-6 pl-4 border-l z-20 border-slate-900/20 dark:border-slate-300/10">
+        <div class="flex flex-col ml-0 sm:ml-4 mt-6 pl-4 border-l z-20 border-slate-900/20 dark:border-slate-300/10">
           <h3 class="text-3xl">Frontend</h3>
-          <div class="flex gap-4 mt-3">
+          <div class="flex gap-2 sm:gap-4 mt-3">
             <img src="/img/html5-original.svg" title="HTML5" alt="HTML" width="40" height="40" />
             <img src="/img/css3-plain-wordmark.svg" title="CSS3" alt="CSS" width="40" height="40" />
             <img src="/img/javascript-original.svg" title="JavaScript" alt="JavaScript" width="40" height="40" />
@@ -53,9 +69,9 @@
             <img src="/img/redux-original.svg" title="Next" alt="Next" width="40" height="40" />
           </div>
         </div>
-        <div class="flex flex-col ml-4 mt-6 pl-4 border-l z-20 border-slate-900/20 dark:border-slate-300/10">
+        <div class="flex flex-col ml-0 sm:ml-4 mt-6 pl-4 border-l z-20 border-slate-900/20 dark:border-slate-300/10">
           <h3 class="text-3xl">Другое</h3>
-          <div class="flex gap-4 mt-3">
+          <div class="flex gap-2 sm:gap-4 mt-3">
             <img src="/img/photoshop-plain.svg" title="photoshop" alt="photoshop" width="40" height="40" />
             <img src="/img/illustrator-plain.svg" title="illustrator" alt="illustrator" width="40" height="40" />
             <img src="/img/figma-original.svg" title="figma" alt="figma" width="40" height="40" />
@@ -65,7 +81,7 @@
           </div>
         </div>
         <div
-          class="flex flex-col justify-center z-10 text-right absolute right-0 text-5xl opacity-40 select-none text-slate-300 dark:text-slate-800"
+          class="flex-col justify-center z-10 text-right absolute right-0 text-5xl opacity-40 select-none hidden sm:flex text-slate-300 dark:text-slate-800"
         >
           <span>1001000</span>
           <span>1100101 1101100 </span>
@@ -224,7 +240,6 @@
           </div>
         </div>
       </div>
-      <!-- last section -->
       <div
         class="flex flex-col items-start mt-20 mx-[96px] p-6 border rounded-lg border-slate-900/20 dark:border-slate-300/10"
       >
