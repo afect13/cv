@@ -9,7 +9,7 @@
     <title>Nikita - Frontend developer</title>
   </head>
   <body
-    class="font-Roboto bg-stone-100 dark:bg-slate-900 text-slate-700 dark:text-slate-400 scrollbar scrollbar-w-[4px] scrollbar-thumb-zinc-400 scrollbar-track-zinc-300 dark:scrollbar-track-slate-700 dark:scrollbar-thumb-slate-800"
+    class="font-Roboto bg-stone-100 dark:bg-slate-900 text-slate-700 dark:text-slate-400 scrollbar scrollbar-w-[8px] scrollbar-thumb-zinc-400 scrollbar-track-zinc-300 dark:scrollbar-track-slate-700 dark:scrollbar-thumb-slate-800"
   >
     <header
       class="min-w-full fixed z-40 border-b border-slate-900/20 dark:border-slate-300/10 bg-stone-100 dark:bg-slate-900"
@@ -28,7 +28,7 @@
     </header>
     <main class="flex flex-col box-border max-w-6xl pt-16 mx-auto">
       <div
-        class="flex flex-col items-start max-w-[330px] sm:max-w-none sm:items-center sm:flex-row mx-auto sm:mx-[20px] md:mx-[40px] lg:mx-[96px] xl:mx-[96px] justify-between mt-10"
+        class="flex flex-col items-start max-w-[330px] sm:max-w-none sm:items-center sm:flex-row mx-auto sm:mx-[16px] md:mx-[36px] lg:mx-[66px] xl:mx-[96px] justify-between mt-10"
       >
         <div class="flex flex-col justify-center order-2 mt-12 sm:mt-0 md:items-start sm:order-1 basis-2/3">
           <h1
@@ -52,7 +52,7 @@
         </div>
       </div>
       <div
-        class="flex flex-col relative min-w-[330px] sm:min-w-none items-start mt-20 mx-auto sm:mx-[20px] md:mx-[40px] lg:mx-[96px] xl:mx-[96px]"
+        class="flex flex-col relative min-w-[330px] sm:min-w-none items-start mt-20 mx-auto sm:mx-[16px] md:mx-[36px] lg:mx-[66px] xl:mx-[96px]"
       >
         <div class="flex text-slate-900 dark:text-slate-200 items-center text-4xl">
           <i class="fa-solid fa-screwdriver-wrench mr-4"></i>
@@ -91,12 +91,16 @@
           <span>100001</span>
         </div>
       </div>
-      <div class="flex flex-col items-start mt-20 mx-[96px]">
+      <div
+        class="flex flex-col items-start mt-20 min-w-[330px] sm:min-w-none mx-auto sm:mx-[16px] md:mx-[36px] lg:mx-[66px] xl:mx-[96px]"
+      >
         <div class="flex text-slate-900 dark:text-slate-200 items-center text-4xl">
           <i class="fa-solid fa-code mr-4"></i>
           <h2>Проекты:</h2>
         </div>
-        <div class="flex flex-row min-w-full gap-4 justify-between mt-6">
+        <div
+          class="flex flex-col items-center flex-wrap sm:flex-row min-w-full gap-4 justify-center lg:justify-between mt-6"
+        >
           <div
             class="w-[280px] bg-white border shadow border-slate-200 dark:border-slate-800 dark:bg-slate-800 rounded-lg"
           >
@@ -180,17 +184,20 @@
           </div>
         </div>
       </div>
-      <div class="flex flex-col items-start mt-20 mx-[96px]">
+      <!-- sss -->
+      <div
+        class="flex flex-col items-start mt-20 max-w-[330px] sm:max-w-none mx-auto sm:mx-[16px] md:mx-[36px] lg:mx-[66px] xl:mx-[96px]"
+      >
         <div class="flex text-slate-900 dark:text-slate-200 items-center text-4xl">
           <i class="fa-solid fa-user mr-4"></i>
           <h2>Обо мне:</h2>
         </div>
-        <div class="flex flex-col mx-4 mt-6 px-4">
-          <div class="flex flex-row gap-6 py-4 border-b border-slate-900/20 dark:border-slate-300/10">
-            <div class="flex-none w-[150px]">
-              <h3 class="text-2xl">Образование</h3>
+        <div class="flex flex-col mx-0 sm:mx-4 mt-6 px-0 sm:px-4">
+          <div class="flex flex-col sm:flex-row gap-6 py-4 border-b border-slate-900/20 dark:border-slate-300/10">
+            <div class="flex-none sm:w-[150px]">
+              <h3 class="text-2xl">Образование:</h3>
             </div>
-            <div class="pl-6 border-l border-slate-900/20 dark:border-slate-300/10">
+            <div class="sm:pl-6 sm:border-l border-slate-900/20 dark:border-slate-300/10">
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ullam magni repellendus? Consequuntur aut
                 nulla possimus autem, officiis repellendus laborum blanditiis dignissimos sequi dolorum temporibus
@@ -199,11 +206,11 @@
               </p>
             </div>
           </div>
-          <div class="flex flex-row gap-6 py-4 border-b border-slate-900/20 dark:border-slate-300/10">
-            <div class="flex-none w-[150px]">
+          <div class="flex flex-col sm:flex-row gap-6 py-4 border-b border-slate-900/20 dark:border-slate-300/10">
+            <div class="flex-none sm:w-[150px]">
               <h3 class="text-2xl">Работа</h3>
             </div>
-            <div class="pl-6 border-l border-slate-900/20 dark:border-slate-300/10">
+            <div class="sm:pl-6 sm:border-l border-slate-900/20 dark:border-slate-300/10">
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ullam magni repellendus? Consequuntur aut
                 nulla possimus autem, officiis repellendus laborum blanditiis dignissimos sequi dolorum temporibus
@@ -212,11 +219,11 @@
               </p>
             </div>
           </div>
-          <div class="flex flex-row gap-6 py-4 border-b border-slate-900/20 dark:border-slate-300/10">
-            <div class="flex-none w-[150px]">
+          <div class="flex flex-col sm:flex-row gap-6 py-4 border-b border-slate-900/20 dark:border-slate-300/10">
+            <div class="flex-none sm:w-[150px]">
               <h3 class="text-2xl">Фриланс</h3>
             </div>
-            <div class="pl-6 border-l border-slate-900/20 dark:border-slate-300/10">
+            <div class="sm:pl-6 sm:border-l border-slate-900/20 dark:border-slate-300/10">
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ullam magni repellendus? Consequuntur aut
                 nulla possimus autem, officiis repellendus laborum blanditiis dignissimos sequi dolorum temporibus
@@ -225,11 +232,11 @@
               </p>
             </div>
           </div>
-          <div class="flex flex-row gap-6 py-4 border-b border-slate-900/20 dark:border-slate-300/10">
-            <div class="flex-none w-[150px]">
+          <div class="flex flex-col sm:flex-row gap-6 py-4 border-b border-slate-900/20 dark:border-slate-300/10">
+            <div class="flex-none sm:w-[150px]">
               <h3 class="text-2xl">Почему Frontend ?</h3>
             </div>
-            <div class="pl-6 border-l border-slate-900/20 dark:border-slate-300/10">
+            <div class="sm:pl-6 sm:border-l border-slate-900/20 dark:border-slate-300/10">
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ullam magni repellendus? Consequuntur aut
                 nulla possimus autem, officiis repellendus laborum blanditiis dignissimos sequi dolorum temporibus
@@ -241,26 +248,30 @@
         </div>
       </div>
       <div
-        class="flex flex-col items-start mt-20 mx-[96px] p-6 border rounded-lg border-slate-900/20 dark:border-slate-300/10"
+        class="flex flex-col items-start mt-20 max-w-[330px] sm:max-w-none mx-auto sm:mx-[16px] md:mx-[36px] lg:mx-[66px] xl:mx-[96px] p-6 border rounded-lg border-slate-900/20 dark:border-slate-300/10"
       >
         <div class="flex text-slate-900 dark:text-slate-200 items-center pb-6 text-4xl">
           <i class="fa-solid fa-address-card mr-4"></i>
           <h2>Контакты:</h2>
         </div>
-        <div class="flex flex-row w-full justify-between border-t border-slate-900/20 dark:border-slate-300/10">
-          <div class="flex flex-row items-center text-3xl ml-4 mt-6">
+        <div
+          class="flex flex-col lg:flex-row w-full justify-between border-t border-slate-900/20 dark:border-slate-300/10"
+        >
+          <div class="flex flex-row items-center text-[1.3rem] sm:text-3xl mt-6">
             <i class="fa-solid fa-square-phone mr-4"></i>
             <a href="tel:+79829788493">+7(982)978-84-93</a>
           </div>
           <div class="mt-6 border-l border-slate-900/20 dark:border-slate-300/10"></div>
-          <div class="flex flex-row items-center text-3xl mt-6 mr-4">
+          <div class="flex flex-row items-center text-[1.3rem] sm:text-3xl mt-6 mr-4">
             <i class="fa-solid fa-at mr-4"></i>
             <a href="mailto:developcat13@gmail.com">developcat13@gmail.com</a>
           </div>
         </div>
       </div>
-      <div class="flex items-center justify-center text-7xl my-52 mx-[96px]">
-        <h4>Спасибо за внимание ;)</h4>
+      <div
+        class="flex items-center text-center justify-center text-7xl my-52 mx-auto sm:mx-[16px] md:mx-[36px] lg:mx-[66px] xl:mx-[96px]"
+      >
+        <h4>Спасибо за внимание</h4>
       </div>
     </main>
 
