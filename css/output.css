@@ -825,6 +825,10 @@ video {
   text-align: right;
 }
 
+.text-justify {
+  text-align: justify;
+}
+
 .font-Roboto {
   font-family: Roboto, sans-serif;
 }
@@ -846,11 +850,6 @@ video {
 
 .text-5xl {
   font-size: 3rem;
-  line-height: 1;
-}
-
-.text-7xl {
-  font-size: 4.5rem;
   line-height: 1;
 }
 
@@ -1111,6 +1110,11 @@ video {
 
   .sm\:text-6xl {
     font-size: 3.75rem;
+    line-height: 1;
+  }
+
+  .sm\:text-7xl {
+    font-size: 4.5rem;
     line-height: 1;
   }
 }
